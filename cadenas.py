@@ -20,9 +20,9 @@ print(nombre)
 
 
 #CADENA DE VARIAS LINEAS
-mensaje = """Muy cordialmente, la presente es para 
+texto = """Muy cordialmente, la presente es para 
 comunicarle de la suspención del servicio"""
-print(mensaje)
+print(texto)
 
 
 
