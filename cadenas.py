@@ -1,5 +1,4 @@
 #MAYUSCULAS Y MINUSCULAS
-
 #Para ello se utiliza el método title()
 nombre = "josé martinez"
 nombre = nombre.title()
@@ -12,6 +11,7 @@ nombre = "josé martinez"
 nombre = nombre.upper()
 print(nombre)
 
+
 #Convierte toda la cadena a minúscula 
 #Para ello se utiliza el método lower()
 nombre = "JOSE MARTINEZ"
@@ -19,11 +19,9 @@ nombre = nombre.lower()
 print(nombre)
 
 
-
 #CADENA DE VARIAS LINEAS
 mensaje = """Muy cordialmente, la presente es para 
 comunicarle de la suspención del servicio"""
-
 print(mensaje)
 
 
@@ -31,8 +29,6 @@ print(mensaje)
 #DAR FORMATO A UNA CADENA
 #Con una variable
 color = "verde"
-
-
 print("El color es {}".format(color))
 print(f"El color es {color}")
 
@@ -53,7 +49,6 @@ print(longitud)
 
 #CONOCER PERTENENCIA
 #Para saber si una cadena está contenida en otra se utiliza in
-
 nombre ="María Ramirez Rojas"
 fragmento = "María Ramirez"
 fragmento2 = "Rojas"
@@ -92,8 +87,8 @@ cadena = " María "
 resultado = cadena.strip()
 print(len(resultado))
 
-#OPERACIONES CON CADENAS
 
+#OPERACIONES CON CADENAS
 #Suma
 nombre = "Paolo "
 apellido = "Guerrero"
